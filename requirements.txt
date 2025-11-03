@@ -1,10 +1,11 @@
-﻿langchain
-langgraph
-chromadb
+﻿# requirements.txt （兼容旧版 LangChain）
+langchain==0.0.340
 openai
-ollama
 tiktoken
+chromadb
+faiss-cpu
+pandas
+numpy
+matplotlib
 fastapi
 gradio
-pandas
-matplotlib

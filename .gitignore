@@ -1,0 +1,19 @@
+﻿# 忽略 Python 缓存与临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略虚拟环境和敏感文件
+.env
+*.env
+
+# 忽略向量数据库与缓存
+vector_store/
+
+# 忽略随意测试的文件夹
+random_try/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
