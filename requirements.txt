@@ -1,0 +1,10 @@
+﻿langchain
+langgraph
+chromadb
+openai
+ollama
+tiktoken
+fastapi
+gradio
+pandas
+matplotlib
