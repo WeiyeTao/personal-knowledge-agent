@@ -1,0 +1,9 @@
+
+---
+RAG 是一种结合「信息检索（Retrieval）」与「文本生成（Generation）」的混合框架，用于让大语言模型（LLM）能够访问外部知识库，从而生成更加准确、及时、可解释的回答。
+
+---
+BERT 是 Google AI 在 2018 年提出的一种预训练语言模型，全称为Bidirectional Encoder Representations from Transformers（基于 Transformer 的双向编码表示模型）。它的核心创新在于：采用 Transformer Encoder 架构；通过 双向上下文学习（Bidirectional Context）；利用 大规模无监督语料预训练 + 下游微调（Fine-tuning） 模式。
+
+---
+BERT 的影响与意义✅ 重新定义了 NLP 模型的 “预训练 + 微调”范式✅ 成为众多下游模型（RoBERTa、ELECTRA、T5）的基石✅ 让 NLP 从任务专属模型，转向通用语义理解模型

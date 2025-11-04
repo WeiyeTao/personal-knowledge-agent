@@ -1,11 +1,20 @@
-﻿# requirements.txt （兼容旧版 LangChain）
-langchain==0.0.340
-openai
+﻿# requirements.txt  (recommended stable setup)
+
+# === Core AI and LangChain ===
+langchain==0.0.340              # 旧版兼容稳定
+openai>=1.0.0                   # 新版 OpenAI SDK (支持 client.responses, embeddings)
 tiktoken
 chromadb
 faiss-cpu
+
+# === Data Processing ===
 pandas
 numpy
+
+# === Visualization and Web ===
 matplotlib
+gradio>=4.0.0                   # 最新版支持 Blocks & Theme
 fastapi
-gradio
+
+# === Configuration ===
+pyyaml                          # 用于 settings.yaml 加载
